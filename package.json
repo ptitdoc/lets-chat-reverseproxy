@@ -1,6 +1,6 @@
 {
   "name": "lets-chat-reverseproxy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "reverse proxy sso header add-on for Let's Chat",
   "main": "lib/index.js",
   "repository": {
@@ -16,7 +16,8 @@
   },
   "homepage": "https://github.com/schniz/lets-chat-reverseproxy",
   "dependencies": {
-    "passport-reverseproxy": "^0.1.0"
+    "passport-reverseproxy": "^0.1.0",
+    "rfc2253": "^0.1.1"
   },
   "peerDependencies": {
     "lets-chat-ldap": "^0.5.0",
